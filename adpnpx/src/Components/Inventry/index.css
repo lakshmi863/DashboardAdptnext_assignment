@@ -1,0 +1,210 @@
+.card-main{
+    height: 28px;
+    background-color: #f2f1f4;
+    width: 20%;
+   
+    padding: 5px;
+}
+
+.card-heading{
+    width: 7%;
+    position: absolute;
+    top:5px;
+   
+    margin: 5px;
+    color: #bc8cef;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+.dashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  header input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  header select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  header button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+  }
+  /* Base styles */
+.dashboard {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+header input[type="text"], header select, header button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles for large screens */
+@media (min-width: 768px) {
+    .dashboard {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    table th {
+        display: none;
+    }
+
+    table td {
+        padding: 8px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        text-align: right;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .pagination {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.heading_color{
+    color: #bc8cef;
+    border-radius: 15px;
+  }
+ 

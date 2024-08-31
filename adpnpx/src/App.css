@@ -1,0 +1,11 @@
+.App-container{
+  display: flex;
+  height: 100vh;
+  font-family: "roboto";
+}
+.main-container{
+  flex:1;
+  background-color: #f4f5f7;
+  padding: 20px;
+  overflow-y: auto;
+}

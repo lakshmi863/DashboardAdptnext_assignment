@@ -1,0 +1,168 @@
+.card-main{
+    height: 28px;
+    background-color: #f2f1f4;
+    width: 20%;
+    border-radius: 8px;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.card-heading{
+    width: 7%;
+    position: absolute;
+    top:5px;
+    padding: 2px;
+    margin: 5px;
+    color: #bc8cef;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.card-style{
+    border-radius: 8px;
+    justify-content:space-around;
+}
+
+.style-set{
+    display: flex;
+    flex-direction: column;
+
+    justify-content:space-around;
+
+}
+.chart-m{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:20px;
+    padding: 10px;
+    background-color: #fff;
+    height: 30%;
+    width: 100%;
+    
+    border-radius: 8px;
+}
+.pie-chart{
+    margin-left: 150px;
+    background-color: #fff;
+    height: 35%;
+    width: 80%;
+    
+ 
+    border-radius: 8px;
+    align-items: center;
+   
+}
+.chart-heading{
+    font-family: 'roboto';
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.list-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+
+}
+
+
+.data-p{
+font-size: 15px;
+margin-bottom: 35px;
+
+color: #fb7c7c;
+}
+.Shopify_button{
+    margin-bottom: 65px;
+    color: #2cdbd3;
+}
+.style-icon{
+border-radius: 25px;
+}
+
+
+.card-main {
+    margin-bottom: 20px;
+}
+
+.card-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.chart-m {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.charts, .pie-chart {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Styles for large screens */
+@media (min-width: 768px) {
+    .chart-m {
+        flex-direction: row;
+    }
+
+    .line-chart {
+        width: 600px;
+    }
+
+    .pie-chart {
+        width: 400px;
+    }
+
+    .list-style {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .chart-m {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line-chart {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .pie-chart {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .sub-title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 350px;
+        margin-top: 10px;
+    }
+
+    .data-p, .Shopify_button {
+        font-size: 14px;
+    }
+
+    .style-icon {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
